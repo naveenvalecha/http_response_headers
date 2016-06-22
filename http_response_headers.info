@@ -1,6 +1,0 @@
-name = HTTP Response Headers
-description = Allows to customize HTTP response headers.
-core = 7.x
-dependencies[] = ctools
-files[] = http_response_headers.test
-files[] = includes/http_response_headers.rule.inc
