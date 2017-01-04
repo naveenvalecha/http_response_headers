@@ -1,16 +1,26 @@
-This is a very simple Drupal 8 module that will help secure your website's HTTP headers and improve performance.
+HTTP Response Headers
+=====================
+This module provides a way to  set HTTP headers on pages by various visibility
+settings. Currently the headers can be set by path, content type and user role.
 
-* Blog post [https://www.chapterthree.com/blog/how-to-secure-drupal-http-headers](https://www.chapterthree.com/blog/how-to-secure-drupal-http-headers)
+Installation:
+-------------
 
-This module allows the following HTTP header configurations:
+Install as you would normally install a contributed Drupal module. See:
+https://www.drupal.org/docs/8/extending-drupal/installing-contributed-modules
+for further information.
 
-* Content-Security-Policy
-* Strict-Transport-Security
-* Public-Key-Pins
-* Access-Control-Allow-Origin
-* X-Xss-Protection
-* X-Frame-Options
-* X-Content-Type-Options
-* Cache-Control
+Features:
+---------
 
-Please install the module and configure it here `admin/config/development/http_response_headers`.
+1.  Configure list of allowed headers
+
+2.  Exclude non-functional pages (e.g. Admin pages) globally
+
+3.  Drush extension to cover all functionality
+
+4.  Page level header rule caching
+
+5.  Export/import (using Ctool) header rules from an inc file
+    (MODULE.http_response_headers_default_rule.inc) or hook implementation
+    (hook_http_response_headers_default_rule())
