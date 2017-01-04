@@ -1,0 +1,9 @@
+http_response_headers.settings:
+  type: config_object
+  mapping:
+    security:
+      type: string
+      label: 'Security'
+    performance:
+      type: string
+      label: 'Performance'
