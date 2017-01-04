@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\http_response_headers\Form\AddHTTPHeadersSettings.
- */
-
 namespace Drupal\http_response_headers\Form;
 
 use Drupal\Core\Form\FormStateInterface;

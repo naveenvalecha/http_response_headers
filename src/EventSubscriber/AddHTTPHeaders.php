@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\http_response_headers\EventSubscriber\AddHTTPHeaders.
- */
-
 namespace Drupal\http_response_headers\EventSubscriber;
 
 use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
