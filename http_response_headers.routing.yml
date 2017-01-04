@@ -4,4 +4,4 @@ http_response_headers.settings:
     _title: 'HTTP Response Headers'
     _form: '\Drupal\http_response_headers\Form\AddHTTPHeadersSettings'
   requirements:
-    _permission: 'administer site configuration'
+    _permission: 'administer http response headers'
