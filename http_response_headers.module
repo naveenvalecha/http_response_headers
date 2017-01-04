@@ -4,3 +4,16 @@
  * @file
  * HTTP Header manipulations module.
  */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function http_response_headers_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.http_response_headers':
+      $help_text = '<p>' . t('This module will help you to secure your website\'s HTTP headers and improve performance.') . '</p>';
+      return $help_text;
+  }
+}
