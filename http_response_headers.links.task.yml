@@ -1,0 +1,4 @@
+http_response_headers.settings:
+  title: HTTP Response Headers
+  route_name: http_response_headers.settings
+  base_route: system.admin_config_development

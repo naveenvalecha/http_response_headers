@@ -3,3 +3,4 @@ type: module
 description: 'HTTP Header manipulations to improve performance and secure HTTP headers.'
 core: 8.x
 package: Other
+configure: http_response_headers.settings

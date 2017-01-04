@@ -1,7 +1,7 @@
 http_response_headers.settings:
-  path: 'admin/config/development/http_response_headers'
+  path: 'admin/config/development/http-response-headers/settings'
   defaults:
     _title: 'HTTP Response Headers'
-    _form: '\Drupal\http_response_headers\Form\AddHTTPHeadersSettings'
+    _form: '\Drupal\http_response_headers\Form\HttpResponseHeadersSettings'
   requirements:
     _permission: 'administer http response headers'
