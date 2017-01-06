@@ -20,7 +20,7 @@ use Drupal\Core\Extension\ModuleHandlerInterface;
  *
  * @see \Drupal\http_response_headers\Plugin\HttpResponseHeaderInterface
  */
-class HttpResponseHeaderManager extends DefaultPluginManager implements HttpResponseHeaderInterface, FallbackPluginManagerInterface {
+class HttpResponseHeaderManager extends DefaultPluginManager implements FallbackPluginManagerInterface {
 
   use CategorizingPluginManagerTrait {
     getSortedDefinitions as traitGetSortedDefinitions;
